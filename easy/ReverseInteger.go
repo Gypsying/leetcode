@@ -1,10 +1,5 @@
 // 2021.06.27
 
-import (
-	"fmt"
-	"strconv"
-)
-
 func power(x, y int) int {
 	if 0 == x {
 		return 0
