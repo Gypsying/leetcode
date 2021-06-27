@@ -14,7 +14,7 @@ func isPalindrome(x int) bool {
 	reverse := ""
 	s := fmt.Sprintf("%d", x)
 	for idx := len(s) - 1; idx >= 0; idx-- {
-		reverse += fmt.Sprintf("%c", s[idx])
+		reverse += string(s[idx])
 	}
 	return s == reverse
 }
