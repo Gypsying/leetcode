@@ -1,4 +1,5 @@
 // 2021.06.27
+
 func twoSum(nums []int, target int) []int {
 	var indices []int
 	for idx := 0; idx < len(nums); idx++ {
